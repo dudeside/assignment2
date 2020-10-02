@@ -1,0 +1,62 @@
+1. MacBook-Air:assignment2 RyanAbell$ git commit -a
+[master 4ef0de4] Update README.md
+ Committer: Ryan Abell <RyanAbell@MacBook-Air.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+)
+
+
+
+2. 9 commits total
+   git command used: git shortlog --pretty=oneline
+
+
+3. README.md last modified: Thu Oct 1 22:52:18 2020
+   git command used: git log ./README.md
+
+
+4. Two reasons why branches are used in a Git repository are: branches allow you to work without messing with the master, and because branches in Git are just pointers to a specific commit, branching is fast & cheap.
+
+
+5. Git log shows a history (commits), while git status shows the status of the working directory (including uncommitted changes).
+
+
+6. git log --follow ./Vehicle.h
+
+
+7. git log --grep="file"
+
+
+8. Inheritance is a concept of object-oriented programming where classes can contain subclasses. Child classes (subclasses) can inherit
+   data members and member functions from parent classes. Polymorphism gives child classes then ability to change member functions
+   inherited from parent classes. Encapsulation is used to hide class data from access outside of the class. Data can be 
+   accessed/modified via public member functions.
+
+
+9. Both the Dictator and Lieutenants workflow and the Integration Manager workflow are distributed workflows, however there is a major
+   major difference between them. In the Integration Manager workflow, developers pull from the central repository and push to their
+   own public repository. Then, the Integration Manager performs conflict resolution and pushes to the central repository. In the
+   Dictator and Lieutenants workflow, developers pull from the central repository and push to their dedicated Lieutenant's repository.
+   The Lieutenants merge commits from developers and push to the Dictator's repository. The Dictator then performs conflict resolution
+   and pushes to the central repository.
+
+
+10. A team of 100 developers would benefit from following the Dictator and Lieutenants workflow instead of the Centralized workflow
+    because if following the Centralized workflow, all 100 developers would have to pull any changes in the central repository and
+    resolve conflicts before pushing to the central repository. In the Dictator and Lieutenants workflow, developers push to their
+    Lieutenant's repository, who then pushes to to the Dictator's repository, who then pushes to the central repository. Less conflict
+    resolution is performed by fewer people.
+
+
+
+
+
