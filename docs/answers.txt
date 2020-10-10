@@ -1,3 +1,6 @@
+Date Git Lab Tutorials completed: 10/1/2020
+Date GitHub account set up: 10/1/2020
+
 1. MacBook-Air:assignment2 RyanAbell$ git commit -a
 [master 4ef0de4] Update README.md
  Committer: Ryan Abell <RyanAbell@MacBook-Air.local>
